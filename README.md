@@ -9,12 +9,9 @@ An AI-powered tender analysis system that extracts, processes, and matches TED-s
 - **Testing Notebook**  
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-0-L4kfnb8hzu7jQRMDgkEMUiQFW43FF#scrollTo=AJ73l1wOLp6O)
 
-![Testing Notebook](https://i.imgur.com/djBvU5P.png)
-
 - **Final Notebook (Fully Integrated)**  
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10Hb246jX23ai9dThcC7VlzlaLEnuNoDK#scrollTo=eSYo7UrlKaRs)
 
-![Final Notebook](https://i.imgur.com/xxBZlOP.png)
 ---
 
 ## ✨ Features
