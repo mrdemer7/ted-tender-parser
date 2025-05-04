@@ -1,6 +1,6 @@
 # 🚀 TED Tender Parser MVP
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Skn4d0O3YhNP-jCNFLX61mNgDZp-MeDm#scrollTo=IjoeDbhg58KD)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-0-L4kfnb8hzu7jQRMDgkEMUiQFW43FF#scrollTo=AJ73l1wOLp6O)
 
 **AI-powered tender analysis system** that extracts, processes, and matches TED tenders with internal projects.
 
@@ -13,7 +13,7 @@
 
 ## 🏃‍♂️ Quick Start
 ### 1-Click Colab Launch:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Skn4d0O3YhNP-jCNFLX61mNgDZp-MeDm#scrollTo=IjoeDbhg58KD)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-0-L4kfnb8hzu7jQRMDgkEMUiQFW43FF#scrollTo=AJ73l1wOLp6O)
 
 1. Click the Colab badge above
 2. Press `Runtime → Run all` (Ctrl+F9)
