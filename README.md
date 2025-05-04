@@ -3,7 +3,11 @@
 An AI-powered tender analysis system that extracts, processes, and matches TED-style tenders with internal references and displays them in a responsive Streamlit dashboard.
 
 ---
-[Download Tender PDF](tender.pdf)
+## 📄 Full Project Details (PDF)
+
+To fully understand the project structure, objectives, and requirements, download the complete project brief in PDF format:
+
+[**Download Tender Project PDF**](tender.pdf)
 
 ## 🔗 Google Colab Links
 
