@@ -1,28 +1,57 @@
-# 🚀 TED Tender Parser MVP
+# 🚀 Mini TED Tender Parser MVP
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-0-L4kfnb8hzu7jQRMDgkEMUiQFW43FF#scrollTo=AJ73l1wOLp6O)
+An AI-powered tender analysis system that extracts, processes, and matches TED-style tenders with internal references and displays them in a responsive Streamlit dashboard.
 
-**AI-powered tender analysis system** that extracts, processes, and matches TED tenders with internal projects.
+---
+
+## 🔗 Google Colab Links
+
+- **Testing Notebook**  
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-0-L4kfnb8hzu7jQRMDgkEMUiQFW43FF#scrollTo=AJ73l1wOLp6O)
+
+- **Final Notebook (Fully Integrated)**  
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10Hb246jX23ai9dThcC7VlzlaLEnuNoDK#scrollTo=eSYo7UrlKaRs)
+
+---
 
 ## ✨ Features
-- GPT-4 powered data extraction
-- Semantic reference matching
-- Interactive Streamlit dashboard
-- One-click CSV export
-- Mobile-responsive design
 
-## 🏃‍♂️ Quick Start
-### 1-Click Colab Launch:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-0-L4kfnb8hzu7jQRMDgkEMUiQFW43FF#scrollTo=AJ73l1wOLp6O)
+- **GPT-Powered Extraction** of:
+  - Project Name
+  - Location
+  - Budget (Kostengruppen 300 + 400)
+  - Project Type
+  - Phases
+  - Submission Deadline
 
-1. Click the Colab badge above
-2. Press `Runtime → Run all` (Ctrl+F9)
-3. Wait for the ngrok URL (~30 sec)
-4. Click the link to open dashboard
+- **Reference Matching**:
+  - Cosine similarity-based scoring
+  - GPT explanation for match reasoning (mocked or real)
 
-### Local Execution:
+- **Interactive Streamlit Dashboard**:
+  - Filter tenders by location, project type, and budget
+  - View detailed tender info and top 3 matches
+  - CSV export for filtered tenders
+
+- **Automation Simulation**:
+  - Scheduled reprocessing of "new tenders" folder using Python `schedule` (bonus)
+
+---
+
+## 🎯 Objective
+
+Build a simplified version of the TED Tender Parser system to demonstrate:
+
+- Data parsing using GPT
+- Reference matching using semantic logic
+- Visual results in an interactive dashboard
+
+---
+
+## 🧪 Setup Instructions
+
+1. **Clone the repo:**
+
 ```bash
-git clone https://github.com/mrdemer7/ted-tender-parser.git
+git clone https://github.com/yourusername/ted-tender-parser.git
 cd ted-tender-parser
-pip install -r requirements.txt
-streamlit run app.py
